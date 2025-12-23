@@ -1,0 +1,41 @@
+.skillsSection {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.highlight {
+  color: #00ff88;
+}
+
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skillBadge {
+  background: #1a1a1a;
+  color: #00ff88;
+  border: 1px solid #333;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.skillBadge:hover {
+  background: #00ff88;
+  color: #000;
+  transform: scale(1.1);
+  border-color: #00ff88;
+}

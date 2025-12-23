@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15%;
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo span {
+  color: #00ff88;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.navLinks a:hover {
+  color: #00ff88;
+}
+
+.contactBtn {
+  background: #00ff88;
+  color: #000 !important;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
