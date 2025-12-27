@@ -26,8 +26,21 @@ const ProjectList = () => {
       description: "An advanced To-Do application using LocalStorage for persistent task management.",
       link: "https://react-task-master-gold.vercel.app/",
     },
+     {
+      id: 5,
+      title: "Agency-X",
+      description: "A high performance agency landing page and fully responsive design for professional business solutions.",
+      link: "https://agency-x-nine.vercel.app/",
+    },
+     {
+      id: 6,
+      title: "Smartwatch-landing",
+      description: "A premium e-commerce smartwatch landing page and high-conversion product showcase",
+      link: "https://smartwatch-landing-delta.vercel.app/",
+    },
+   
   ];
-
+  
   return (
     <section className={styles.projectSection}>
       <h2 className={styles.heading}>My <span className={styles.highlight}>Featured Works</span></h2>
