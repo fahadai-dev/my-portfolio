@@ -38,9 +38,14 @@ const ProjectList = () => {
       description: "A premium e-commerce smartwatch landing page and high-conversion product showcase",
       link: "https://smartwatch-landing-delta.vercel.app/",
     },
-   
+         {
+      id: 7,
+      title: "Student Management Dashboard",
+      description: "A React-based Student Management System with dynamic routing and full CRUD functionality",
+      link: "https://edu-flow-student-management.vercel.app/",
+    },
   ];
-  
+   
   return (
     <section className={styles.projectSection}>
       <h2 className={styles.heading}>My <span className={styles.highlight}>Featured Works</span></h2>
@@ -58,5 +63,4 @@ const ProjectList = () => {
     </section>
   );
 };
-
 export default ProjectList;
